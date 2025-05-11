@@ -1,0 +1,345 @@
+Body{
+    margin: 0;
+    padding: 0;
+  
+    color:#000000;
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+   
+    font-style: normal;
+
+    background-image: url(./d4aa4e1e-fc3d-4a79-8688-02877bed8460.jpeg);
+
+    
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed;
+
+
+}
+
+
+header{
+    position: relative;
+}
+
+footer{
+    background: rgba(80, 80, 80, 0.51); /* Light transparent background */
+    backdrop-filter: blur(5px) brightness(1.2);
+    box-shadow: 0 8px 32px rgba(42, 0, 0, 0.697);
+    z-index: 999;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+footer p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    font-size: 24px;
+  
+   margin: 0;
+
+
+
+}
+
+nav{
+    display: flex;
+   justify-content: space-between;
+
+   background: rgba(80, 80, 80, 0.51); /* Light transparent background */
+   backdrop-filter: blur(5px) brightness(1.2);
+    
+ 
+    align-items: center;
+    padding:0 50px;
+    height: 100px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0 8px 32px rgba(42, 0, 0, 0.697);
+   
+ 
+   
+}
+span{
+    color: cyan;
+}
+
+.navButton{
+    list-style: none;
+   
+    display: flex;
+    padding-right: 50px;
+    gap: 20px;
+  
+}
+
+.navButton li{
+    
+    position: relative;
+}
+
+a{
+    display: block;
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  
+}
+
+.mainLi{
+    text-decoration: underline;
+}
+
+.dropDown li{
+  width: 150px;
+      
+  
+
+    display: block;
+   
+}
+
+.dropDown li a{
+  
+    color: rgb(0, 0, 0);
+}
+
+.dropDown{
+   
+  
+   
+  
+    position: absolute;
+    left: -50px;
+    display: none;
+    z-index: 999;
+   
+
+}
+
+
+
+a:hover{
+  color: cyan;
+}
+h1 a:hover{
+    color: #b20d30;
+}
+
+li:hover .dropDown{
+    display: block;
+    background: rgba(179, 177, 177, 0.51); /* Light transparent background */
+    backdrop-filter: blur(5px) brightness(1.2);
+}
+
+
+
+.dropDown li:hover a {
+  
+    color: #b20d30;
+}
+
+
+
+
+
+
+
+
+
+
+ul{
+    display: flex;
+    color: #f5e9dc;
+    justify-content:center;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+}
+
+ul li{
+    margin: 10px;
+    font-size: 1.5rem;
+ 
+}
+
+.searchBar{
+    height: 30px;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px;
+    background-color: #f5e9dc;
+}
+
+
+.Button{
+    margin: 10px;
+    background-color: #b20d30;
+    height:50px ;
+    width: 50px;
+    border-radius: 25%;
+    border-style: none;
+  
+}
+
+
+
+
+h1{
+    color: #b20d30;
+
+}
+h1 a{
+    color: #b20d30;
+}
+h2{
+    font-weight: 400;
+    color:rgb(0, 0, 0);
+    margin: 0;
+    padding: 30px;
+
+ 
+   
+  
+  
+}
+
+
+
+.block1{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 200px;
+  
+}
+
+.intro{
+   
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 100px;
+    background: rgba(179, 177, 177, 0.51); /* Light transparent background */
+    backdrop-filter: blur(5px) brightness(1.2);
+    position:absolute;
+  top: 100px;
+ 
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(145deg, #0078ff, #b60a6c); /* Gradient effect */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-button:hover {
+    background: linear-gradient(135deg, #b60a6c, #0078ff); /* Slightly darker gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .contact-button:active {
+    transform: scale(0.95); /* Shrinks slightly when clicked */
+  }
+
+
+#img1{
+    border-radius: 100px;
+    padding: 50px;
+  
+    width: 40%;
+}
+.block2{
+    padding-left: 100px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+   
+    width: 280px;
+    background: rgba(0, 0, 0, 0.314); /* Light transparent background */
+    backdrop-filter: blur(5px) brightness(1.2);
+
+}
+
+audio{
+    width: 250px;
+    height: 30px;
+  
+    border-radius: 10px;
+    background-color: #222;
+    padding: 10px;
+    outline: none;
+    margin-top:10px;
+  
+}
+
+.card img{
+   width: 270px;
+   border-radius: 20px;
+}
+
+
+.myFav{
+    padding:0 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   gap: 20px;
+}
+
+
+.card img{
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.card img:hover {
+   
+    transform: scale(0.95); /* Shrinks slightly when clicked */
+  }
+
+  .card:hover {
+    background: linear-gradient(135deg, #b60a6c75, #0077ff68); /* Slightly darker gradient on hover */
+    
+  }
+  
+ 
+
+
+
+
+
+
+
+
+

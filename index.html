@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <style>
+      body {
+        
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+   
+    font-style: normal;
+
+        height: 100%;
+
+        margin: 0;
+        background-image: url(./d4aa4e1e-fc3d-4a79-8688-02877bed8460.jpeg);
+        background-size: cover; /* Scales the image to cover the entire container */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents repetition */
+
+        display: flex;
+        justify-content: center;
+      }
+
+      .container {
+        width: 50%;
+        height: 400px;
+        padding: 50px;
+        margin-top: 100px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        border-radius: 30px;
+
+        background: rgba(67, 66, 66, 0.147); /* Light transparent background */
+        backdrop-filter: blur(5px) brightness(1.2); /* Blur effect with brightness */
+
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+        
+      }
+      .parentContainer {
+        height: 100vh;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+      }
+
+      input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #000000;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: rgba(0, 0, 0, 0);
+      }
+      .btn {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .btn1 {
+        background-color: #2a0dcc;
+        color: white;
+        border: none;
+
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: #218838;
+      }
+
+      .btn1:hover {
+        background-color: rgb(6, 11, 106);
+      }
+
+      h1 {
+        margin: 0%;
+        padding: 10px 0;
+      }
+
+      h2 {
+        margin: 0;
+        padding: 5px 0;
+        padding-bottom: 10px;
+
+        font-size: larger;
+        font-weight: 50;
+      }
+
+      label {
+        font-size: small;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+      }
+
+      form {
+        padding-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parentContainer">
+      <div class="container">
+        <h1>
+          Ready To Start Your <br />
+          Success Story?
+        </h1>
+        <h2><b>Signup</b> to our website and start exploring your world!</h2>
+        <form action="./mainPage.html">
+          <label>Enter Your Name</label>
+          <input type="text" placeholder="Username" required />
+          <label>Enter Your Email</label>
+          <input type="Email" placeholder="Email" required />
+
+          <button type="submit" class="btn">Sign In</button>
+          <br />
+
+          <button type="submit" class="btn1">Contact Us</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
